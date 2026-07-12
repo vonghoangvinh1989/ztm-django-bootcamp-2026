@@ -1,5 +1,4 @@
 from django.urls import path
-
 from .views import LinkListView, LinkCreateView
 
 urlpatterns = [

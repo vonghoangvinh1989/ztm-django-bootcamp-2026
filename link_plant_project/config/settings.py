@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # local apps
     "link_plant",
+    # third party apps
+    "crispy_forms",
+    "crispy_tailwind",
 ]
 
 MIDDLEWARE = [
@@ -117,3 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = "static/"
+
+# Crispy form settings
+CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
+CRISPY_TEMPLATE_PACK = "tailwind"
